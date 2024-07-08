@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Bitter", serif;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: burlywood;
+    line-height: 75px;
+    padding: 0px 10px;
+    position: static;
+
+}
+
+nav .logo {
+    font-size: 20px;
+
+}
+
+nav .logo h3 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+
+}
+
+nav ul li {
+
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+
+    font-weight: 200px;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 32px;
+
+}
+
+a:hover {
+    color: rgb(78, 47, 255);
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: fill
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-text {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(219, 216, 213);
+    position: absolute;
+    top: 40%;
+    margin-left: 55%;
+    padding: 10px;
+    border-radius: 10%;
+    opacity: 70%;
+
+}
+
+.panel-container {
+    display: flex;
+    /* Use flexbox for layout */
+    padding-inline-start: 10px;
+    padding: 50px;
+}
+
+.panel {
+    flex: 1;
+    /* Equal width for both panels */
+    padding: 20px;
+    border: 2px solid rgb(248, 243, 243);
+    border-radius: 30px;
+    /* Rounded corners */
+    background-color: #f5f5f5;
+    /* Light background color */
+    margin-right: 20px;
+    /* Add spacing between panels */
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+}
+
+.panel:last-child {
+    margin-right: 0;
+    /* Remove margin from the last panel */
+}
+
+.panel h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.panel p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.panel button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.brand1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+#brand1 {
+    letter-spacing: 40px;
+    font-size: 50px;
+}
+
+.map{
+    width:1000px;
+    height:500px;
+}
+#head{
+    margin-top: 10px;
+}
+.social img{
+    width: 150px; 
+    height: 50px;
+    margin-right: 10px;
+}
